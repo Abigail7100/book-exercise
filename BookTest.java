@@ -77,7 +77,7 @@ public class BookTest
     @Test
     public void isCourseText()
     {
-        assertEquals(true, book1.isCourseText());
+        assertEquals(false, book1.isCourseText());
         assertEquals(false, book2.isCourseText());
         assertEquals(false, book3.isCourseText());
     }
