@@ -29,6 +29,7 @@ class Book
         refNumber = "";
         
     }
+    //Exercise 2.92
     public boolean isCourseText()
     {
         return courseText;
@@ -37,11 +38,13 @@ class Book
     {
         this.courseText = courseText;
     }
+    // Exercise 2.83
     public String getAuthor()
     {
 
     return author;
 }
+//Exercise 2.83
 public String getTitle(){
     return title;
 }
@@ -49,10 +52,12 @@ public String getRefNumber()
 {
     return refNumber;
 }
+//Exercise 2.91
 public int getBorrowed()
 {
     return borrowed;
 }
+//Exercise 2.88, 2.90
 public void setRefNumber(String ref)
 {
     if (ref.length() >= 3)
@@ -68,18 +73,22 @@ public void borrow()
 {
     borrowed = borrowed + 1;
 }
+// Exercise 2.85
 public int getPages()
 {
     return pages;
 }
+// Exercise 2.84
 public void printAuthor()
 {
     System.out.println("Author:" + author);
 }
+// Exercise 2.84
 public void printTitle()
 {
   System.out.println("Title: " + title);  
 }
+// Exercise 2.87, 2.89,2.91
 public void printDetails()
 {
    System.out.println("Title: "+ title + ",Author: " 
